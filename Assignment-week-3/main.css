@@ -1,127 +1,20 @@
-header {
-    background-color: black;
-    padding: 20px;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    font-weight: bold;
-    color: whitesmoke;
-}
-a{
-    text-decoration: overline;
+/* =========================================
+   1. GLOBAL STYLES
+   ========================================= */
+body {
+    background-image: url("Assets/Images/olena-bohovyk-dIMJWLx1YbE-unsplash.jpg");
+    background-color: black; /* Fallback */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: black;
-    padding: 5px;
-    justify-content: center;
-    gap: 15px
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    line-height: 1.6;
 }
-a:hover {
-    color: burlywood;
-    background-color: black;
-    padding: 5px;
-    border-radius: 5px;
-}
-.navbar{
-            background-color: white;
-            padding: 15px 30px;
-            width: 96.5%;
-        }
-        .nav-container{
-            display: flex;
-            width: 80%;
-            justify-content: center;
-        }
-        .logo{
-            color: black;
-            font-size: 40px;
-            font-weight: bold;
-        }
-        .nav-menu{
-            display:flex;
-            list-style: none;
-            gap: 40px;
 
-        }
-
-        .nav-link{
-            color: honeydew;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 26px;
-            padding: 10px;
-            border-radius: 20%;
-        }
-
-        .signup-btn{
-            padding: 20px;
-            border-radius: 100%;
-
-        }
-        .signup-btn:hover{
-            background-color: peru;
-        }
-        a:hover{
-            background-color: peru;
-            padding: 20px;
-
-        }
-
-        main{
-            background-color: navajowhite;
-            padding: 40px;
-            border-radius: 10px;
-            margin:20px auto;
-            max-width:1000px;
-
-        }
-        .about-us{
-            color:black;
-            font-size: 20px;
-            font-family: system-ui;
-            
-        }
-        h2{
-            border-bottom: 2px solid rosybrown;
-        }
-        .hero-image {
-            height: 500px;
-            border-radius: 15px;
-            background-size: cover;
-            background: url("") center;
-        }
-        .hero-text{
-            color: darksalmon;
-            text-align: center;
-            font-weight: bold;
-            font-size: 40px;
-            position: relative;
-            top: 50%;
-        }
-        ul
-        {
-            list-style: none;
-            display: flex;
-            gap: 40px;
-            justify-content: space-between;
-        }
-       
-        iframe{
-            border-radius: 15px;
-            width: 100%;
-        }
-        footer{
-            background-color: rosybrown;
-            border-radius: 15px;
-        }
-        .youtube{
-            display: flex;
-            justify-content:space-between;
-             }
-        .mine{
-            width: 500px;
-        }
-
-        header{
+header {
     background-color: burlywood;
     padding: 20px;
     text-align: center;
@@ -129,62 +22,240 @@ a:hover {
     font-size: 30px;
     font-weight: bold;
     color: black;
-
 }
-.navigation{
-    background-color:black;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    overflow: hidden;
-    justify-content: center;
-    gap: 10px;
 
+h2 {
+    border-bottom: 2px solid rosybrown;
 }
-li{
-    display: inline-block;
-    margin-right: 20px;
-    list-style: none;
-    color: black;
-    justify-items: center;
 
-
-}
-a{
-    text-decoration: overline;
-    color: black;
-    padding: 5px;
-    justify-content: center;
-    gap: 10px
-
-}
-a:hover{
-    color: black;
+/* =========================================
+   2. NAVIGATION
+   ========================================= */
+.navbar {
     background-color: white;
-    padding: 5px;
-    border-radius: 5px;
-
-
+    padding: 15px 30px;
 }
-.the body{
-    background-color:whitesmoke;
-    color:black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
-    margin:20px;
-   line-height: 1.6px;
-   background: url("Assets/Images/olena-bohovyk-dIMJWLx1YbE-unsplash.jpg") no-repeat center center fixed;
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: auto; /* Pushes menu to the right if needed */
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: peru;
+    border-radius: 5px;
+}
+
+.signup-btn {
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.signup-btn:hover {
+    background-color: peru;
+}
+
+/* =========================================
+   3. MAIN CONTENT
+   ========================================= */
+main {
+    background-color: rgba(255, 222, 173, 0.9); /* navajowhite with transparency */
+    padding: 40px;
+    border-radius: 10px;
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+.about-us {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.hero-image {
+    height: 500px;
+    border-radius: 15px;
+    background: url("Assets/Images/hero.jpg") no-repeat center;
     background-size: cover;
 }
-body {
-    background-image: url("Assets/Images/olena-bohovyk-dIMJWLx1YbE-unsplash.jpg");
-    background-color:black; /* Fallback color in case the image fails to load */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-size: cover; /* Resizes the image to cover the entire container */
-    background-position: center; /* Centers the image within the container */
+
+.hero-text {
+    color: darksalmon;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 20%;
 }
 
-.sticky {
-    position: sticky;
+/* =========================================
+   4. PARTNERS SECTION
+   ========================================= */
+.partners-simple {
+    padding: 40px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.partner-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.partner-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.partner-item i {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.partner-item:hover {
+    color: #007bff;
+}
+
+/* =========================================
+   5. CONTACT PAGE
+   ========================================= */
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 5%;
+    gap: 30px;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info-item i {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: #007bff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* =========================================
+   6. FOOTER & MISC
+   ========================================= */
+footer {
+    background-color: rosybrown;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+iframe {
+    border-radius: 15px;
+    width: 100%;
+}
+/* Gallery Video Grid */
+.youtube-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.video-card {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.video-card iframe {
+    position: absolute;
     top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Ensure footer stays at bottom */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rosybrown;
+    margin-top: 50px;
 }
