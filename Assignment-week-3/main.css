@@ -78,6 +78,7 @@ a:hover {
             color:black;
             font-size: 20px;
             font-family: system-ui;
+            
         }
         h2{
             border-bottom: 2px solid rosybrown;
@@ -172,15 +173,18 @@ a:hover{
     font-size: medium;
     margin:20px;
    line-height: 1.6px;
-   background: url("https://github.com/JackMichael-ai/Assignment-week-3/blob/a5c0a49588647b5727e51c661ad6432cb6d22dd2/Assets/Images/olena-bohovyk-dIMJWLx1YbE-unsplash.jpg") no-repeat center center fixed;
+   background: url("Assets/Images/olena-bohovyk-dIMJWLx1YbE-unsplash.jpg") no-repeat center center fixed;
     background-size: cover;
-
 }
 body {
-    background-image: url("https://github.com/JackMichael-ai/Assignment-week-3/blob/a5c0a49588647b5727e51c661ad6432cb6d22dd2/Assets/Images/olena-bohovyk-dIMJWLx1YbE-unsplash.jpg");
+    background-image: url("Assets/Images/olena-bohovyk-dIMJWLx1YbE-unsplash.jpg");
     background-color:black; /* Fallback color in case the image fails to load */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-size: cover; /* Resizes the image to cover the entire container */
     background-position: center; /* Centers the image within the container */
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+}
