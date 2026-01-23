@@ -1,0 +1,139 @@
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+a{
+    text-decoration: overline;
+    color: black;
+    padding: 5px;
+    justify-content: center;
+    gap: 15px
+
+}
+a:hover {
+    color: burlywood;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+<<<<<<< HEAD
+.navbar{
+            background-color: white;
+            padding: 15px 30px;
+            width: 96.5%;
+        }
+        .nav-container{
+            display: flex;
+            width: 90%;
+            justify-content: center;
+        }
+        .logo{
+            color: black;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .nav-menu{
+            display:flex;
+            list-style: none;
+            gap: 40px;
+
+        }
+
+        .nav-link{
+            color: honeydew;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 26px;
+            padding: 10px;
+            border-radius: 20%;
+        }
+
+        .signup-btn{
+            padding: 20px;
+            border-radius: 100%;
+
+        }
+        .signup-btn:hover{
+            background-color: peru;
+        }
+        a:hover{
+            background-color: peru;
+            padding: 20px;
+
+        }
+
+        main{
+            background-color: navajowhite;
+            padding: 40px;
+            border-radius: 10px;
+            margin:20px auto;
+            max-width:1000px;
+
+        }
+        .about-us{
+            color:black;
+            font-size: 20px;
+            font-family: system-ui;
+        }
+        h2{
+            border-bottom: 2px solid rosybrown;
+        }
+        .hero-image {
+            height: 500px;
+            border-radius: 15px;
+            background-size: cover;
+            background: url("") center;
+        }
+        .hero-text{
+            color: darksalmon;
+            text-align: center;
+            font-weight: bold;
+            font-size: 40px;
+            position: relative;
+            top: 50%;
+        }
+        ul
+        {
+            list-style: none;
+            display: flex;
+            gap: 40px;
+            justify-content: space-between;
+        }
+        .the body{
+            background-image: url("/home/emobilis/PycharmProjects/Assignment-week-3/Assets/Images/olena-bohovyk-dIMJWLx1YbE-unsplash.jpg");
+        }
+        iframe{
+            border-radius: 15px;
+            width: 100%;
+        }
+        footer{
+            background-color: rosybrown;
+            border-radius: 15px;
+        }
+        .youtube{
+            display: flex;
+            justify-content:space-between;
+             }
+        .mine{
+            width: 500px;
+        }
+=======
+.the body{
+    background-color:black;
+    color:burlywood;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin:20px;
+line-height: 1.6px;
+background: url(../../OneDrive/Pictures/WALLPAPER/1370933.jpeg) no-repeat center center fixed;
+background-size: cover;
+}
+
+    
+}
+>>>>>>> 66814ca (Updates at 10.56pm)
