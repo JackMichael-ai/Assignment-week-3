@@ -1,16 +1,15 @@
-
 html {
     scroll-behavior: smooth;
 }
 
 body {
     background-image: url("Assets/Images/olena-bohovyk-dIMJWLx1YbE-unsplash.jpg");
-    background-color: black; 
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: black;
+    color: black; /* Original color */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     line-height: 1.6;
@@ -87,7 +86,7 @@ h2 {
 
 
 main {
-    background-color: rgba(255, 222, 173, 0.9); 
+    background-color: ; /* Original empty background-color */
     padding: 40px;
     border-radius: 10px;
     margin: 40px auto;
@@ -116,9 +115,9 @@ main {
 
 
 .sticky {
-    box-shadow: 0 -20px 50px rgba(0,0,0,0.3); 
+    box-shadow: 0 -20px 50px rgba(0,0,0,0.3);
     transition: transform 0.3s ease-out;
-    border-top: 1px solid rgba(255,255,255,0.1); 
+    border-top: 1px solid rgba(255,255,255,0.1);
 }
 
 .sticky h2 {
@@ -180,7 +179,7 @@ main {
 
 .video-card {
     position: relative;
-    padding-bottom: 56.25%; 
+    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
     border-radius: 15px;
